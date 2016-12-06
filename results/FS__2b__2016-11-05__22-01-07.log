@@ -1,0 +1,88 @@
+[INFO] FREQUENCY BAND SELECTION
+[INFO] -----------------
+[INFO] - Dataset = BCI Competition IV - 2b
+[INFO] - Dataset dir = datasets/4-2b
+[INFO] - Feature selection method = SFFS
+[INFO] - Estimator = SVM (C=0.04)
+[INFO] - Window start time (at sec) = 3.5
+[INFO] - Window length (secs) = 2
+[INFO] - Number of CSP components = 2
+[INFO] - Number of band-pass filters = 10
+[INFO] - Filter bank = 8-12 10-14 12-16 14-18 16-20 18-22 20-24 22-26 24-28 26-30
+[INFO] 
+[INFO] Subject 1, sessions [1, 3]: 280 epochs, 3 channels, 500 samples x epoch
+[INFO] 
+[INFO]   Selected freq. bands (Hz)   |   Kappa coef.   |  Accuracy (%) 
+[INFO] ----------------------------------------------------------------
+[INFO] 10-14                         | 0.594 +/- 0.005 | 79.68 +/- 0.25
+[INFO] 10-14 20-24                   | 0.646 +/- 0.009 | 82.29 +/- 0.43
+[INFO] 10-14 20-24 26-30             | 0.651 +/- 0.012 | 82.57 +/- 0.59
+[INFO] 
+[INFO] Subject 2, sessions [1, 2, 3]: 400 epochs, 3 channels, 500 samples x epoch
+[INFO] 
+[INFO]   Selected freq. bands (Hz)   |   Kappa coef.   |  Accuracy (%) 
+[INFO] ----------------------------------------------------------------
+[INFO] 20-24                         | 0.176 +/- 0.010 | 58.80 +/- 0.52
+[INFO] 20-24 10-14                   | 0.232 +/- 0.013 | 61.62 +/- 0.62
+[INFO] 20-24 10-14 8-12              | 0.263 +/- 0.015 | 63.15 +/- 0.73
+[INFO] 
+[INFO] Subject 3, sessions [1, 2, 3]: 400 epochs, 3 channels, 500 samples x epoch
+[INFO] 
+[INFO]   Selected freq. bands (Hz)   |   Kappa coef.   |  Accuracy (%) 
+[INFO] ----------------------------------------------------------------
+[INFO] 10-14                         | 0.205 +/- 0.020 | 60.25 +/- 1.02
+[INFO] 10-14 8-12                    | 0.214 +/- 0.012 | 60.72 +/- 0.62
+[INFO] 10-14 8-12 12-16              | 0.265 +/- 0.020 | 63.25 +/- 1.02
+[INFO] 
+[INFO] Subject 4, sessions [3]: 160 epochs, 3 channels, 500 samples x epoch
+[INFO] 
+[INFO]   Selected freq. bands (Hz)   |   Kappa coef.   |  Accuracy (%) 
+[INFO] ----------------------------------------------------------------
+[INFO] 8-12                          | 0.994 +/- 0.006 | 99.69 +/- 0.31
+[INFO] 8-12 10-14                    | 1.000 +/- 0.000 | 100.00 +/- 0.00
+[INFO] 8-12 10-14 12-16              | 1.000 +/- 0.000 | 100.00 +/- 0.00
+[INFO] 
+[INFO] Subject 5, sessions [3]: 160 epochs, 3 channels, 500 samples x epoch
+[INFO] 
+[INFO]   Selected freq. bands (Hz)   |   Kappa coef.   |  Accuracy (%) 
+[INFO] ----------------------------------------------------------------
+[INFO] 26-30                         | 0.675 +/- 0.008 | 83.75 +/- 0.40
+[INFO] 26-30 22-26                   | 0.772 +/- 0.009 | 88.63 +/- 0.47
+[INFO] 26-30 22-26 10-14             | 0.786 +/- 0.015 | 89.31 +/- 0.76
+[INFO] 
+[INFO] Subject 6, sessions [3]: 160 epochs, 3 channels, 500 samples x epoch
+[INFO] 
+[INFO]   Selected freq. bands (Hz)   |   Kappa coef.   |  Accuracy (%) 
+[INFO] ----------------------------------------------------------------
+[INFO] 12-16                         | 0.589 +/- 0.012 | 79.44 +/- 0.59
+[INFO] 12-16 10-14                   | 0.675 +/- 0.014 | 83.75 +/- 0.68
+[INFO] 12-16 10-14 20-24             | 0.682 +/- 0.011 | 84.12 +/- 0.57
+[INFO] 
+[INFO] Subject 7, sessions [3]: 160 epochs, 3 channels, 500 samples x epoch
+[INFO] 
+[INFO]   Selected freq. bands (Hz)   |   Kappa coef.   |  Accuracy (%) 
+[INFO] ----------------------------------------------------------------
+[INFO] 10-14                         | 0.796 +/- 0.010 | 89.81 +/- 0.49
+[INFO] 10-14 26-30                   | 0.809 +/- 0.008 | 90.44 +/- 0.40
+[INFO] 10-14 26-30 12-16             | 0.816 +/- 0.006 | 90.81 +/- 0.29
+[INFO] 
+[INFO] Subject 8, sessions [3]: 160 epochs, 3 channels, 500 samples x epoch
+[INFO] 
+[INFO]   Selected freq. bands (Hz)   |   Kappa coef.   |  Accuracy (%) 
+[INFO] ----------------------------------------------------------------
+[INFO] 10-14                         | 0.804 +/- 0.011 | 90.19 +/- 0.56
+[INFO] 10-14 8-12                    | 0.819 +/- 0.010 | 90.94 +/- 0.50
+[INFO] 10-14 8-12 12-16              | 0.820 +/- 0.011 | 91.00 +/- 0.57
+[INFO] 
+[INFO] Subject 9, sessions [3]: 160 epochs, 3 channels, 500 samples x epoch
+[INFO] 
+[INFO]   Selected freq. bands (Hz)   |   Kappa coef.   |  Accuracy (%) 
+[INFO] ----------------------------------------------------------------
+[INFO] 22-26                         | 0.701 +/- 0.009 | 85.06 +/- 0.44
+[INFO] 22-26 18-22                   | 0.704 +/- 0.006 | 85.19 +/- 0.29
+[INFO] 22-26 18-22 14-18             | 0.695 +/- 0.013 | 84.75 +/- 0.64
+[INFO] 
+[INFO] --------------------------------
+[INFO] Finished at: 2016-11-05 22:02:50
+[INFO] Execution time: 102 seconds
+[INFO] --------------------------------

@@ -1,0 +1,67 @@
+[INFO] CLASSIFICATION RESULTS
+[INFO] ------------
+[INFO] - Dataset = BCI Competition IV - 2b
+[INFO] - Dataset dir = datasets/4-2b
+[INFO] - Estimator = SVM (C=0.04)
+[INFO] - Window start time for training (at sec) = 3.5
+[INFO] - Window length (secs) = 2
+[INFO] - Number of CSP components = 2
+[INFO] 
+[INFO] Subject 1, train sessions [1, 3]
+[INFO] Subject 1, test sessions [4, 5]
+[INFO] Selected freq. bands: [10, 14, 20, 24]
+[INFO] Max. accuracy = 73.125  at time point 1445
+[INFO] Max. kappa = 0.462  at time point 1445
+[INFO] 
+[INFO] Subject 2, train sessions [1, 2, 3]
+[INFO] Subject 2, test sessions [4, 5]
+[INFO] Selected freq. bands: [10, 14, 20, 24]
+[INFO] Max. accuracy = 67.143  at time point 1204
+[INFO] Max. kappa = 0.343  at time point 1204
+[INFO] 
+[INFO] Subject 3, train sessions [1, 2, 3]
+[INFO] Subject 3, test sessions [4, 5]
+[INFO] Selected freq. bands: [8, 12, 18, 22]
+[INFO] Max. accuracy = 63.125  at time point 1910
+[INFO] Max. kappa = 0.263  at time point 1910
+[INFO] 
+[INFO] Subject 4, train sessions [3]
+[INFO] Subject 4, test sessions [4, 5]
+[INFO] Selected freq. bands: [8, 12, 10, 14]
+[INFO] Max. accuracy = 97.812  at time point 1329
+[INFO] Max. kappa = 0.956  at time point 1329
+[INFO] 
+[INFO] Subject 5, train sessions [3]
+[INFO] Subject 5, test sessions [4, 5]
+[INFO] Selected freq. bands: [22, 26, 26, 30]
+[INFO] Max. accuracy = 92.812  at time point 1500
+[INFO] Max. kappa = 0.856  at time point 1500
+[INFO] 
+[INFO] Subject 6, train sessions [3]
+[INFO] Subject 6, test sessions [4, 5]
+[INFO] Selected freq. bands: [10, 14, 12, 16]
+[INFO] Max. accuracy = 82.812  at time point 1501
+[INFO] Max. kappa = 0.656  at time point 1501
+[INFO] 
+[INFO] Subject 7, train sessions [3]
+[INFO] Subject 7, test sessions [4, 5]
+[INFO] Selected freq. bands: [12, 16, 18, 22]
+[INFO] Max. accuracy = 81.562  at time point 1335
+[INFO] Max. kappa = 0.631  at time point 1335
+[INFO] 
+[INFO] Subject 8, train sessions [3]
+[INFO] Subject 8, test sessions [4, 5]
+[INFO] Selected freq. bands: [8, 12, 10, 14]
+[INFO] Max. accuracy = 93.125  at time point 1403
+[INFO] Max. kappa = 0.863  at time point 1431
+[INFO] 
+[INFO] Subject 9, train sessions [3]
+[INFO] Subject 9, test sessions [4, 5]
+[INFO] Selected freq. bands: [18, 22, 22, 26]
+[INFO] Max. accuracy = 87.812  at time point 1446
+[INFO] Max. kappa = 0.756  at time point 1446
+[INFO] 
+[INFO] --------------------------------
+[INFO] Finished at: 2016-11-05 22:27:54
+[INFO] Execution time: 1384 seconds
+[INFO] --------------------------------
