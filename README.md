@@ -11,15 +11,20 @@ To execute the code, it is necessary to have installed Python 3.5 and:
 - Scipy = 0.17.0
 - Scikit-learn = 0.17.1
 
-Also, you need to download the BCI Competition IV data set 2b and run the script octave/gdf2mat.m with appropriate parameters.
+Also, you need to download the BCI Competition IV data set 2b and run the script octave/gdf2mat.m with appropriate parameters. The default directory for the dataset is *datasets/4-2b*. If you want to use another directory, you have to specify it in the octave script and to the commands below.
 
 ## Running the code
 
-The file results/[FS__2b__2016-11-05__22-01-07.log](https://github.com/bustios/res/blob/master/results/FS__2b__2016-11-05__22-01-07.log) contains the results of the SFFS method (the frequency bands selected for each subject) in the frequency band selection phase. Run the following command to create a .log file with the same the results:
+There is a *--help* option that displays a description of the command's supported syntax and options:
+
+    python res/select_features.py --help
+    python res/test.py --help
+
+The file results/[FS__2b__2016-11-05__22-01-07.log](https://github.com/bustios/res/blob/master/results/FS__2b__2016-11-05__22-01-07.log) contains the results of the SFFS method (the frequency bands selected for each subject) in the frequency band selection phase. Run the following command to create a .log file with the same results:
 
     python res/select_features.py
 
-The file results/[FS__2b__2016-11-05__22-03-09.log](https://github.com/bustios/res/blob/master/results/FS__2b__2016-11-05__22-03-09.log) contains the results of the RES method in the frequency band selection phase. Run the following command to create a .log file with the same the results:
+The file results/[FS__2b__2016-11-05__22-03-09.log](https://github.com/bustios/res/blob/master/results/FS__2b__2016-11-05__22-03-09.log) contains the results of the RES method in the frequency band selection phase. Run the following command to create a .log file with the same results:
  
     python res/select_features.py -e -n 2
 
@@ -27,6 +32,4 @@ The file results/[TEST__2b__2016-11-05__22-04-50.log](https://github.com/bustios
 
     python res/test.py
     
-This command will also create a list of files (*2b_subject_X* one for each subject in the data set) in [output/results](https://github.com/bustios/res/tree/master/results) containing the time course of the accuracy scores and kappa values for all trials in the evaluation sessions (04E and 05E).
-
-Additionally, there is a *--help* option that displays a description of the command's supported syntax and options.
+This command will also create a list of files (*2b_subject_X* one for each subject in the data set) in the *log* directory (it will be created if it does not exist), containing the accuracy scores and kappa values over time for all trials in the evaluation sessions (04E and 05E).
