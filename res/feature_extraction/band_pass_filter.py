@@ -4,7 +4,7 @@ from sklearn.base import BaseEstimator, TransformerMixin
 
 class BandPassFilter(BaseEstimator, TransformerMixin):
 
-    def __init__(self, low_freq=7., high_freq=30., gpass=0.5, gstop=10.,
+    def __init__(self, low_freq=7., high_freq=30., gpass=1., gstop=10.,
                  sfreq=250, ftype="cheby2"):
         nyquist = sfreq / 2.
         wp = [low_freq / nyquist, high_freq / nyquist]
